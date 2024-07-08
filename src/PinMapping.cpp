@@ -9,15 +9,15 @@
 #include <string.h>
 
 #ifndef DISPLAY_TYPE
-#define DISPLAY_TYPE 0U
+#define DISPLAY_TYPE 2U
 #endif
 
 #ifndef DISPLAY_DATA
-#define DISPLAY_DATA 255U
+#define DISPLAY_DATA 21U
 #endif
 
 #ifndef DISPLAY_CLK
-#define DISPLAY_CLK 255U
+#define DISPLAY_CLK 22U
 #endif
 
 #ifndef DISPLAY_CS
@@ -61,15 +61,15 @@
 #endif
 
 #ifndef CMT_CLK
-#define CMT_CLK -1
+#define CMT_CLK 12
 #endif
 
 #ifndef CMT_CS
-#define CMT_CS -1
+#define CMT_CS 27
 #endif
 
 #ifndef CMT_FCS
-#define CMT_FCS -1
+#define CMT_FCS 26
 #endif
 
 #ifndef CMT_GPIO2
@@ -81,7 +81,7 @@
 #endif
 
 #ifndef CMT_SDIO
-#define CMT_SDIO -1
+#define CMT_SDIO 14
 #endif
 
 PinMappingClass PinMapping;

@@ -60,6 +60,10 @@ void DisplayGraphicClass::init(Scheduler& scheduler, const DisplayType_t type, c
         if (_display_type == DisplayType_t::ST7567_GM12864I_59N) {
             _display->setI2CAddress(0x3F << 1);
         }
+        else {
+            _display->setI2CAddress(0x78);
+        }
+
         _display->begin();
         setContrast(DISPLAY_CONTRAST);
         setStatus(true);

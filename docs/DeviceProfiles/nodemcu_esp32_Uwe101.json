@@ -1,0 +1,34 @@
+[
+    {
+        "name": "CMT2300A with SSD1306",
+        "cmt": {
+            "clk": 12,
+            "sdio": 14,
+            "cs": 27,
+            "fcs": 26,
+            "gpio2": -1,
+            "gpio3": -1
+        },
+        "display": {
+            "type": 2,
+            "data": 21,
+            "clk": 22
+        }
+    },
+    {
+        "name": "CMT2300A + SSD1309",
+        "cmt": {
+            "clk": 12,
+            "sdio": 14,
+            "cs": 27,
+            "fcs": 26,
+            "gpio2": -1,
+            "gpio3": -1
+        },
+        "display": {
+            "type": 4,
+            "data": 21,
+            "clk": 22
+        }
+    }
+]
